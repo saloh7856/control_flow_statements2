@@ -1,7 +1,7 @@
 /*  
 Create function called func  
 Return the days of the week, return the days of the week according to the numbers 1 to 7.
-Use the elif statments.
+Use the else if statements.
 1: "Monday"
 2: "Tuesday"
 3: "Wednesday"
