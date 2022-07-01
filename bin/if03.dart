@@ -7,15 +7,15 @@ Args:
     c: Third number.
 Returns:
     int: return answer. */
-int func(int first,second,third){
-    if(first>second && first<c){
-            return first;
+int func(int a,b,c){
+    if(a>b && a<c){
+            return a;
         }else
-        if(first<second && second<third){
-            return second;
+        if(a<b && b<c){
+            return b;
         }else 
-        if(first>second && second>third){
-            return third;
+        if(a>b && b>c){
+            return c;
         }
     }
 void main(){
