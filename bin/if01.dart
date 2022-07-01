@@ -1,24 +1,27 @@
-/*
-Create function called func
-Find the largest of the numbers.
-Args:
-    a: First number.
-    b: Second number.
-    c: Third number.
-Returns:
-    int: return answer.
-*/
-int func(first,second,third){
-    if(first>second && first>third){
-        return first;
+// Create function called func
+// Find the largest of the numbers.
+// Args:
+//     a: First number.
+//     b: Second number.
+//     c: Third number.
+// Returns:
+//     int: return answer.
+
+
+int func(int first,second,third){
+    if(first>second){
+        if(first>third){
+            return first;
+        }
+    else
+            return third;
     }else
-    if(second>first && second>third){
+    if(third<second){
         return second;
-    }else
-    if(third>first && third>second){
+    }else{
         return third;
     }
-}
+    }
 void main(){
-    print(func(10,5,11));
+    print(func(10,55,25));
 }
