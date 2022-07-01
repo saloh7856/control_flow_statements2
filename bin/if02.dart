@@ -9,20 +9,19 @@ Returns:
     int: return answer.
 */
 int func(int first,second,third){
-    if(first>second){
-        if(first>third){
+    if(first<second){
+        if(first<third){
             return first;
         }
-    }else
+    else
             return third;
     }else
     if(third<second){
-    
         return second;
-    }else
-    return third;
-
+    }else{
+        return third;
+    }
+    }
 void main(){
-    print(func(10,5,11));
+    print(func(10,15,1));
 }
-
