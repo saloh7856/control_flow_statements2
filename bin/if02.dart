@@ -8,7 +8,7 @@ Args:
 Returns:
     int: return answer.
 */
-int func(first,second,third){
+int func(int first,second,third){
     if(first<second && first<third){
         return first;
     }else
