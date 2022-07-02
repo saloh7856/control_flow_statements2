@@ -13,7 +13,29 @@ Args:
     number: Number of the day.
 Returns:
     str: return answer. 
-*/
-
-void main() {
+*/String func(int number){
+    if(number==1){
+        return 'Monday';
+    }else
+    if(number==2){
+        return 'Tuesday';
+    }else
+    if(number==3){
+        return 'Wednesday';
+    }else
+    if(number==4){
+        return 'Thursday';
+    }else
+        if(number==5){
+        return 'Firday';
+    }else
+    if(number==6){
+        return 'Saturday';
+}else
+return 'Sunday';
 }
+void main(){
+    print(func(7));
+}
+
+
