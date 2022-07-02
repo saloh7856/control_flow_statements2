@@ -7,17 +7,54 @@ Args:
     c: Third number.
 Returns:
     int: return answer. */
+// int func(int a,b,c){
+//     if(a>b){
+//         if(a<c){
+//          return a;   
+//         }else
+//         if(c<b){
+//             return b;
+//         }
+        
+//     }else
+//     if(b>a){
+//         if(a>c){
+//             return a;
+
+//         }else
+//         if(b<c){
+//             return b;
+//         }
+//     }
+// }
+// void main(){
+//     print(func(16,18,20));
+// }
 int func(int a,b,c){
-    if(a>b && a<c){
-            return a;
+    if(a>b){
+        if(a<c){
+         return a;   
         }else
-        if(a<b && b<c){
+        if(c<b){
+            return b;
+        }
+        
+    }else
+    if(b>a){
+        if(a>c){
+            return a;
+
+        }else
+        if(b<c){
             return b;
         }else 
-        if(a>b && b>c){
-            return c;
+        if(c<b){
+            if(c>a){
+                return c;
+            }
         }
     }
+}
 void main(){
-    print(func(16,18,20));
+    print(func(19,18,20));
 }
