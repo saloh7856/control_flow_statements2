@@ -54,6 +54,7 @@ int func(int a,b,c){
             }
         }
     }
+    return 11;
 }
 void main(){
     print(func(19,18,20));
