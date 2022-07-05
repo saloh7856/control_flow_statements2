@@ -54,7 +54,7 @@ int func(int a,b,c){
             }
         }
     }
-    return 11;
+    return 5;
 }
 void main(){
     print(func(19,18,20));
