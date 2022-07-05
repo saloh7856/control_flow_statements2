@@ -7,17 +7,17 @@ Returns:
     int: return answer.
 */
 
-int func(int n){
+int func(int number){
     int x1,x2,x3,x4,x5;
-    x1=n%10;
-    n~/=10;
-    x2=n%10;
-    n~/=10;
-    x3=n%10;
-    n~/=10;
-    x4=n%10;
-    n~/=10;
-    x5=n%10;
+    x1=number%10;
+    number~/=10;
+    x2=number%10;
+    number~/=10;
+    x3=number%10;
+    number~/=10;
+    x4=number%10;
+    number~/=10;
+    x5=number%10;
     if (x1>x2 && x1>x3 && x1>x4 && x1>x5){
         return x1;
     }
@@ -33,8 +33,9 @@ int func(int n){
     else if (x5>x2 && x5>x3 && x5>x4 && x5>x1){
         return x5;
     }
+    return 5;
 }
     
 void main(){
-    print(func(12568));
+    print(func(92168));
 }
