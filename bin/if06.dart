@@ -32,6 +32,7 @@ int func(int n){
     else if (x5>x2 && x5>x3 && x5>x4 && x5>x1){
         return 5;
     }
+    return 5;
 }
     
 void main(){
